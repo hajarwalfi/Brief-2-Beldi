@@ -270,37 +270,85 @@ body{
     border-radius: 25px;
     border: none;
     background-color: rgb(234, 234, 234);
+    font-weight:500;   
+    padding-left: 20px;
 }
 .send form textarea{
     max-width: 100%;
     width: 450px;
     height: 12rem;
     border-radius: 25px;
-    border: none;
     background-color: rgb(234, 234, 234);
-}
-.send form input,textarea{
-    padding-left: 20px;
-}
-.send form textarea{
     padding-top: 20px;
+    padding-left: 20px;
+    border: none;
+
 }
+   
+
+/* Sumit button and it's text */
 .submit{
 	padding: 14px 30px;
 	border-radius: 35px;
 	background: #95431A;
-	cursor: pointer;
     width: 100px;
-}
-.submit a{
     font-weight: 400;
 	color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
 }
 
 
 
+/*------------------------------------------Menu--------------------------------------------*/
+.menu {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.threefirst{
+    display: flex;
+    gap:20px;
+    width:100%;
+    justify-content: center;
+    margin-top:140px;
+    border-radius:20px;
+}
+.threesecond{
+    display: flex;
+    gap:20px;
+    width:100%;
+    justify-content: center;
+    margin-bottom:100px;
 
+}
+.threefirst img, .threesecond img{ 
+    border-radius:20px;
 
+}
+.menutext{
+    display:flex;
+    justify-content:center;
+    font-family:"Sansita Swashed", system-ui;
+    font-size: 65px;
+    margin-top:75px;
+
+}
+.topfeaturedtext{
+    display:flex;
+    justify-content:center;
+    font-family:"Sansita Swashed", system-ui;
+    font-size: 65px;
+    margin-bottom:75px;
+
+}
+.details {
+    display: grid;
+	align-items: center;
+	text-align: start;
+    
+}
 
 
 
