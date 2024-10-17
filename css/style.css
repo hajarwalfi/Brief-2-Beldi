@@ -181,10 +181,7 @@ header{
     height: 10%;
     color: white;
 }
-.divise{
-    display: flex;
 
-}
 .about{
     margin-right: 30px;
 }
@@ -335,7 +332,7 @@ body{
     margin-top:75px;
 
 }
-.topfeaturedtext{
+.featuredtreats h1{
     display:flex;
     justify-content:center;
     font-family:"Sansita Swashed", system-ui;
@@ -343,12 +340,58 @@ body{
     margin-bottom:75px;
 
 }
-.details {
-    display: grid;
-	align-items: center;
-	text-align: start;
-    
+.infos{
+    display: flex;  
+    justify-content: space-between;
+    margin-right:100px;
+    margin-left:100px;
+    margin-bottom: 50px;
 }
+.topfeaturedrow{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+.deal{
+    background: url(/images/Background-menu.png);
+    height: 80vh;
+    width: 100%;
+}
+.deal h1{
+    display:flex;
+    justify-content:center;
+    font-family:"Sansita Swashed", system-ui;
+    font-size: 65px;
+    padding: 60px;
+    color: #95431A;
+    text-align: center;
+}
+
+.deal p{
+    display:flex;
+    justify-content:center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 60px;
+    text-align: center;
+    color: rgb(112, 111, 111);
+    padding: 0 70px;
+}
+.deal button{
+    color:#F5F5F5;
+    font-weight: 400;
+    background: #933C24;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.deal div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 
