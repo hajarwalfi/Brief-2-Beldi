@@ -6,6 +6,8 @@
     text-decoration: none;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
 body{
@@ -194,3 +196,89 @@ header{
     width: 100px;
     height: 67px;
 }
+
+/*About us */
+.row-items p{
+
+
+}
+
+
+/*------------------------------------------About Us Page--------------------------------------------*/
+body{
+    background: #fff;
+}
+/*About us title*/
+.title{
+    margin: 50px;
+    display:flex;
+    justify-content:center;
+}
+.title>h2{
+    font-family:"Sansita Swashed", system-ui;
+    font-size: 65px;
+    background: red;
+}
+
+/*first image*/
+.first-image img{
+    width: 100%;
+    padding: 0;
+}
+/*paragraph premiere*/
+.para{
+    background: red;
+    margin:25px;
+    margin-bottom:50px;
+    text-align: center;
+    padding: 0 20%;
+}
+.image-groupe{
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    gap:25px;
+    margin-bottom:50px;
+}
+.whoissebastientext {
+    color:#FFFFFF;
+    text-align: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 15%;
+    margin-right: 65px;
+    margin-left: 65px;
+}
+.founder{
+    display:flex;
+    background: black;
+    height: 100vh;
+    gap:20px;
+}
+.sebastien img{
+    width: 450px;
+    height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
