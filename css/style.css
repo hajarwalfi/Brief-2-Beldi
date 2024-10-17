@@ -197,13 +197,6 @@ header{
     height: 67px;
 }
 
-/*About us */
-.row-items p{
-
-
-}
-
-
 /*------------------------------------------About Us Page--------------------------------------------*/
 body{
     background: #fff;
@@ -257,8 +250,52 @@ body{
     height:100%;
 }
 
-
-
+/*------------------------------------------About Us Page--------------------------------------------*/
+.contactus img{
+    width: 100%;
+    padding: 0;
+}
+.send{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+} 
+.send form input{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 100%;
+	width: 450px;
+    height: 3rem; 
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(234, 234, 234);
+}
+.send form textarea{
+    max-width: 100%;
+    width: 450px;
+    height: 12rem;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(234, 234, 234);
+}
+.send form input,textarea{
+    padding-left: 20px;
+}
+.send form textarea{
+    padding-top: 20px;
+}
+.submit{
+	padding: 14px 30px;
+	border-radius: 35px;
+	background: #95431A;
+	cursor: pointer;
+    width: 100px;
+}
+.submit a{
+    font-weight: 400;
+	color: white;
+}
 
 
 
