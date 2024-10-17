@@ -377,7 +377,7 @@ body{
     color: rgb(112, 111, 111);
     padding: 0 70px;
 }
-.deal button{
+.deal a{
     color:#F5F5F5;
     font-weight: 400;
     background: #933C24;
@@ -385,6 +385,7 @@ body{
     border-radius: 5px;
     padding: 10px 20px;
     margin-top: 20px;
+    cursor: pointer;
 }
 .deal div {
     display: flex;
