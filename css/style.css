@@ -403,6 +403,7 @@ body{
     gap:20px;
     margin:5px;
     justify-content: center;
+    padding-bottom: 30px;
 }
 .card{
     background: url(/images/Product\ Background.png);
@@ -413,8 +414,6 @@ body{
     padding:0 0 0 0;
     align-items: center;
     margin:5px 0;
-    
-
 }
 .card img{
     height:50%;
@@ -425,14 +424,12 @@ body{
     display:flex;
     justify-content: space-around;
     flex-direction: column;
-   
 }
 .infoadd{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: space-around;
-
 }
 .allproductandinfos{
     display:flex;
@@ -462,32 +459,47 @@ button{
     font-weight:lighter;
 }
 .dealx{
+    padding-top: 20px;
     background: url(/images/noi.png);
     height: 80vh;
     width: 100%;
 }
-
 .dealx h1{
     display:flex;
     justify-content:center;
     font-family:"Sansita Swashed", system-ui;
     font-size: 65px;
-    padding: 60px;
+    padding-top: 20px;
     color: #F5F5F5;
     text-align: center;
 }
-
 .dealx p{
     display:flex;
     justify-content:center;
     font-size: 30px;
     font-weight: 400;
-    padding: 60px;
+    padding-top: 60px;
+    align-content: center;
     text-align: center;
     color: rgb(216, 209, 209);
     padding: 0 70px;
 }
-.dealx a{
+.dealx > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.deal div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnx button{
+    width: 150px;
+    height: 45px;
     color:#F5F5F5;
     font-weight: 400;
     background: #933C24;
@@ -495,21 +507,9 @@ button{
     border-radius: 5px;
     padding: 0 20px;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
     cursor: pointer;
-    margin: 0 50px;
 }
-.deal div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.btnx{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 
