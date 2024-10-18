@@ -503,8 +503,12 @@ button{
     height: 67px;
 }
 
-
-
+.divise{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+ 
 
 
 
